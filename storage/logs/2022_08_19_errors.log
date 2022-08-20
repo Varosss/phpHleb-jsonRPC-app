@@ -1,0 +1,30 @@
+[13:21:56 19.08.2022 UTC] Web:NOTICE date_default_timezone_set(): Timezone ID 'Russia/Moscow' is invalid {C:\php\projects\crypto-project\hleb\app\Controllers\IndexController.php on line 8} localhost:8000 ::1 []
+[13:24:56 19.08.2022 UTC] Web:WARNING date(): Invalid date.timezone value 'Russian/Moscow', we selected the timezone 'UTC' for now. {C:\php\projects\crypto-project\hleb\app\Controllers\IndexController.php on line 9} localhost:8000 ::1 []
+[13:24:56 19.08.2022 UTC] Web:WARNING date(): Invalid date.timezone value 'Russian/Moscow', we selected the timezone 'UTC' for now. {C:\php\projects\crypto-project\hleb\vendor\phphleb\debugpan\DPanel.php on line 114} localhost:8000 ::1 []
+[21:41:20 19.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000 ::1 []
+[21:41:28 19.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000 ::1 []
+[21:43:30 19.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000 ::1 []
+[21:46:49 19.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[21:52:33 19.08.2022 Europe/Moscow+03] Web:ERROR  HL037-VIEW_ERROR: Error in function view() ! Missing file `/resources/views/null.php` .  {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php on line 164} localhost:8000/time/ ::1 []
+[23:08:24 19.08.2022 Europe/Moscow+03] Web:ERROR Uncaught ArgumentCountError: Too few arguments to function App\Controllers\Controller::time(), 0 passed in C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 307 and exactly 4 expected in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:13
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#6 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#7 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000/time/ ::1 []
+[23:10:04 19.08.2022 Europe/Moscow+03] Web:ERROR Uncaught ArgumentCountError: Too few arguments to function App\Controllers\Controller::time(), 0 passed in C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 307 and exactly 1 expected in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:13
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#6 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#7 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000/time/ ::1 []

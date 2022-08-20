@@ -1,0 +1,258 @@
+[01:05:49 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught Error: Call to undefined method Hleb\Constructor\Handlers\Request::post() in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:14
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#6 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#7 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 14} localhost:8000/time/ ::1 []
+[01:06:40 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:10:00 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:10:30 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:12:53 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:26:40 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "id" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:27:07 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:27:56 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:28:50 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:30:41 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:32:36 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:33:00 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:33:00 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:37:50 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:37:50 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:38:40 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:38:40 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:40:47 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:40:47 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:41:50 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:41:50 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:42:23 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:42:23 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:42:32 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:42:32 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:42:40 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:42:40 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:42:49 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:42:49 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:43:43 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:43:43 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:44:17 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:44:17 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:44:57 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "jsonrpc" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[01:44:57 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:45:09 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:50:49 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught Error: Call to private method Hleb\Constructor\Handlers\Request::getData() from scope App\Controllers\Controller in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:14
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#6 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#7 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 14} localhost:8000/time/ ::1 []
+[01:51:18 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[01:51:23 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[15:52:45 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[15:52:55 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[15:54:46 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[15:55:15 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[15:55:38 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[15:55:57 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[15:56:06 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[15:57:32 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[15:57:56 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[15:58:17 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "hello" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[15:58:52 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught ArgumentCountError: Too few arguments to function Hleb\Constructor\Handlers\Request::getPostString(), 0 passed in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 14 and at least 1 expected in C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Handlers\Request.php:420
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(14): Hleb\Constructor\Handlers\Request::getPostString()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#7 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#8 {main}
+  thrown {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Handlers\Request.php on line 420} localhost:8000/time/ ::1 []
+[16:02:25 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught ArgumentCountError: Too few arguments to function Hleb\Constructor\Handlers\Request::getPostString(), 0 passed in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 14 and at least 1 expected in C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Handlers\Request.php:420
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(14): Hleb\Constructor\Handlers\Request::getPostString()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#7 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#8 {main}
+  thrown {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Handlers\Request.php on line 420} localhost:8000/time/ ::1 []
+[16:08:21 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[16:09:22 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[16:25:16 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, bool given in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:16
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(16): in_array()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#7 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#8 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[16:26:05 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:16
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(16): in_array()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#7 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#8 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[16:27:45 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:16
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(16): in_array()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#7 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#8 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[16:27:58 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:16
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(16): in_array()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#7 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#8 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[16:28:05 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:16
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(16): in_array()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#7 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#8 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[16:28:11 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:16
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(16): in_array()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#7 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#8 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[16:28:16 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:16
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(16): in_array()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#7 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#8 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[16:30:56 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[16:31:30 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[16:32:01 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[16:32:13 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000/time/ ::1 []
+[16:37:02 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught Error: Call to undefined function App\Controllers\key_exist() in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:16
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#6 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#7 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[16:40:29 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught Error: Call to undefined function App\Controllers\array_key_exist() in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:16
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#6 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#7 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000/time/ ::1 []
+[16:43:21 20.08.2022 Europe/Moscow+03] Web:ERROR Uncaught Error: Call to undefined function App\Controllers\get_current_time() in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:25
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->time()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#6 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#7 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 25} localhost:8000/time/ ::1 []
+[18:35:41 20.08.2022 Europe/Moscow+03] Web:NOTICE session_start(): Ignoring session_start() because a session is already active {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000 ::1 []
+[18:35:46 20.08.2022 Europe/Moscow+03] Web:NOTICE session_start(): Ignoring session_start() because a session is already active {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000 ::1 []
+[18:35:46 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 28} localhost:8000 ::1 []
+[18:35:46 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 84} localhost:8000 ::1 []
+[18:36:35 20.08.2022 Europe/Moscow+03] Web:NOTICE session_start(): Ignoring session_start() because a session is already active {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000 ::1 []
+[18:36:35 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 28} localhost:8000 ::1 []
+[18:36:35 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 84} localhost:8000 ::1 []
+[18:36:36 20.08.2022 Europe/Moscow+03] Web:NOTICE session_start(): Ignoring session_start() because a session is already active {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000 ::1 []
+[18:36:36 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 28} localhost:8000 ::1 []
+[18:36:36 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 84} localhost:8000 ::1 []
+[18:36:37 20.08.2022 Europe/Moscow+03] Web:NOTICE session_start(): Ignoring session_start() because a session is already active {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000 ::1 []
+[18:36:37 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 28} localhost:8000 ::1 []
+[18:36:37 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 84} localhost:8000 ::1 []
+[18:36:37 20.08.2022 Europe/Moscow+03] Web:NOTICE session_start(): Ignoring session_start() because a session is already active {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000 ::1 []
+[18:36:37 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 28} localhost:8000 ::1 []
+[18:36:37 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 84} localhost:8000 ::1 []
+[18:37:04 20.08.2022 Europe/Moscow+03] Web:NOTICE session_start(): Ignoring session_start() because a session is already active {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000 ::1 []
+[18:37:07 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "result" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[18:37:09 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "result" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[18:37:09 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "result" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[18:37:09 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "result" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[18:38:36 20.08.2022 Europe/Moscow+03] Web:NOTICE session_start(): Ignoring session_start() because a session is already active {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 16} localhost:8000 ::1 []
+[18:38:40 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "output" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[18:38:42 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "output" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[18:38:42 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "output" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[18:38:42 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "output" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[18:40:03 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "output" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[18:40:04 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "output" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[18:40:05 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "output" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[18:40:11 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "output" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[18:40:58 20.08.2022 Europe/Moscow+03] Web:NOTICE session_start(): Ignoring session_start() because a session is already active {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 10} localhost:8000 ::1 []
+[18:41:01 20.08.2022 Europe/Moscow+03] Web:NOTICE session_start(): Ignoring session_start() because a session is already active {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 10} localhost:8000 ::1 []
+[18:41:01 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "output" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 15} localhost:8000 ::1 []
+[18:42:51 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 20} localhost:8000 ::1 []
+[18:42:51 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 74} localhost:8000 ::1 []
+[18:46:35 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 24} localhost:8000 ::1 []
+[18:46:35 20.08.2022 Europe/Moscow+03] Web:WARNING Trying to access array offset on value of type bool {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 80} localhost:8000 ::1 []
+[18:47:19 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "out" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 11} localhost:8000 ::1 []
+[18:47:21 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "out" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 11} localhost:8000 ::1 []
+[18:47:21 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "out" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 11} localhost:8000 ::1 []
+[18:47:21 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "out" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 11} localhost:8000 ::1 []
+[18:47:21 20.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "out" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 11} localhost:8000 ::1 []

@@ -1,0 +1,172 @@
+[00:50:05 21.08.2022 Europe/Moscow+03] Web:ERROR Uncaught Error: Call to undefined method Hleb\Constructor\Handlers\Request::getType() in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:10
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->index()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#6 C:\php\projects\crypto-project\hleb\public\index.php(28): require('...')
+#7 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 10} localhost:8000 ::1 []
+[00:50:44 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "res" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 11} localhost:8000 ::1 []
+[00:50:57 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "res" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 11} localhost:8000 ::1 []
+[00:54:07 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "res" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 11} localhost:8000 ::1 []
+[00:54:12 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "res" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 11} localhost:8000 ::1 []
+[00:57:43 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined variable $resp {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:09:12 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined variable $filename {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 71} localhost:8000 ::1 []
+[01:09:12 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined property: App\Controllers\Controller::$ {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 71} localhost:8000 ::1 []
+[01:09:12 21.08.2022 Europe/Moscow+03] Web:NOTICE file_put_contents(): Passing null to parameter #1 ($filename) of type string is deprecated {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 71} localhost:8000 ::1 []
+[01:09:12 21.08.2022 Europe/Moscow+03] Web:ERROR Uncaught ValueError: Path cannot be empty in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:71
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(71): file_put_contents()
+#1 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(49): App\Controllers\Controller->get_current_UNIX_time()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->index()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#7 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#8 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#9 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 71} localhost:8000 ::1 []
+[01:13:40 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined variable $filename {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 69} localhost:8000 ::1 []
+[01:13:40 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined property: App\Controllers\Controller::$ {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 69} localhost:8000 ::1 []
+[01:13:40 21.08.2022 Europe/Moscow+03] Web:NOTICE file_put_contents(): Passing null to parameter #1 ($filename) of type string is deprecated {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 69} localhost:8000 ::1 []
+[01:13:40 21.08.2022 Europe/Moscow+03] Web:ERROR Uncaught ValueError: Path cannot be empty in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:69
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(69): file_put_contents()
+#1 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(49): App\Controllers\Controller->get_current_UNIX_time()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->index()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#7 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#8 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#9 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 69} localhost:8000 ::1 []
+[01:15:10 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined variable $filename {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 69} localhost:8000 ::1 []
+[01:15:10 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined property: App\Controllers\Controller::$ {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 69} localhost:8000 ::1 []
+[01:15:10 21.08.2022 Europe/Moscow+03] Web:NOTICE file_put_contents(): Passing null to parameter #1 ($filename) of type string is deprecated {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 69} localhost:8000 ::1 []
+[01:15:10 21.08.2022 Europe/Moscow+03] Web:ERROR Uncaught ValueError: Path cannot be empty in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:69
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(69): file_put_contents()
+#1 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(49): App\Controllers\Controller->get_current_UNIX_time()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->index()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#7 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#8 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#9 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 69} localhost:8000 ::1 []
+[01:17:28 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined variable $filename {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 69} localhost:8000 ::1 []
+[01:17:28 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined property: App\Controllers\Controller::$ {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 69} localhost:8000 ::1 []
+[01:17:28 21.08.2022 Europe/Moscow+03] Web:NOTICE file_put_contents(): Passing null to parameter #1 ($filename) of type string is deprecated {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 69} localhost:8000 ::1 []
+[01:17:28 21.08.2022 Europe/Moscow+03] Web:ERROR Uncaught ValueError: Path cannot be empty in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:69
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(69): file_put_contents()
+#1 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(49): App\Controllers\Controller->get_current_UNIX_time()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->index()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#7 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#8 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#9 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 69} localhost:8000 ::1 []
+[01:19:28 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined variable $filename {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:19:28 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined property: App\Controllers\Controller::$ {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:19:28 21.08.2022 Europe/Moscow+03] Web:NOTICE file_get_contents(): Passing null to parameter #1 ($filename) of type string is deprecated {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:19:28 21.08.2022 Europe/Moscow+03] Web:ERROR Uncaught ValueError: Path cannot be empty in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:13
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(13): file_get_contents()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->index()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#7 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#8 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:19:42 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined variable $filename {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:19:42 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined property: App\Controllers\Controller::$ {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:19:42 21.08.2022 Europe/Moscow+03] Web:NOTICE file_get_contents(): Passing null to parameter #1 ($filename) of type string is deprecated {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:19:42 21.08.2022 Europe/Moscow+03] Web:ERROR Uncaught ValueError: Path cannot be empty in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:13
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(13): file_get_contents()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->index()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#7 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#8 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:19:52 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined variable $filename {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:19:52 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined property: App\Controllers\Controller::$ {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:19:52 21.08.2022 Europe/Moscow+03] Web:NOTICE file_get_contents(): Passing null to parameter #1 ($filename) of type string is deprecated {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:19:52 21.08.2022 Europe/Moscow+03] Web:ERROR Uncaught ValueError: Path cannot be empty in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:13
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(13): file_get_contents()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->index()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#7 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#8 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:20:32 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined variable $filename {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:20:32 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined property: App\Controllers\Controller::$ {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:20:32 21.08.2022 Europe/Moscow+03] Web:NOTICE file_get_contents(): Passing null to parameter #1 ($filename) of type string is deprecated {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:20:32 21.08.2022 Europe/Moscow+03] Web:ERROR Uncaught ValueError: Path cannot be empty in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:13
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(13): file_get_contents()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->index()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#7 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#8 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []
+[01:21:59 21.08.2022 Europe/Moscow+03] Web:WARNING file_get_contents(/../data.json): Failed to open stream: No such file or directory {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 11} localhost:8000 ::1 []
+[01:22:07 21.08.2022 Europe/Moscow+03] Web:WARNING file_put_contents(/../data.json): Failed to open stream: Permission denied {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 67} localhost:8000 ::1 []
+[01:22:10 21.08.2022 Europe/Moscow+03] Web:WARNING file_get_contents(/../data.json): Failed to open stream: No such file or directory {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 11} localhost:8000 ::1 []
+[01:25:34 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key "id" {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 24} localhost:8000 ::1 []
+[01:27:12 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined array key 0 {C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php on line 134} localhost:8000 ::1 []
+[01:30:24 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined variable $filename {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 90} localhost:8000 ::1 []
+[01:30:24 21.08.2022 Europe/Moscow+03] Web:WARNING Undefined property: App\Controllers\Controller::$ {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 90} localhost:8000 ::1 []
+[01:30:24 21.08.2022 Europe/Moscow+03] Web:NOTICE file_put_contents(): Passing null to parameter #1 ($filename) of type string is deprecated {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 90} localhost:8000 ::1 []
+[01:30:24 21.08.2022 Europe/Moscow+03] Web:ERROR Uncaught ValueError: Path cannot be empty in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:90
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(90): file_put_contents()
+#1 C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php(34): App\Controllers\Controller->error()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->index()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#6 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#7 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#8 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#9 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 90} localhost:8000 ::1 []
+[01:57:35 21.08.2022 Europe/Moscow+03] Web:ERROR Uncaught Error: Cannot use object of type stdClass as array in C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php:13
+Stack trace:
+#0 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(307): App\Controllers\Controller->index()
+#1 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(120): Hleb\Constructor\Workspace->getController()
+#2 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(97): Hleb\Constructor\Workspace->renderGetMethod()
+#3 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Constructor\Workspace.php(34): Hleb\Constructor\Workspace->create()
+#4 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\Main\ProjectLoader.php(46): Hleb\Constructor\Workspace->__construct()
+#5 C:\php\projects\crypto-project\hleb\vendor\phphleb\framework\bootstrap.php(297): Hleb\Main\ProjectLoader::start()
+#6 C:\php\projects\crypto-project\hleb\public\index.php(26): require('...')
+#7 {main}
+  thrown {C:\php\projects\crypto-project\hleb\app\Controllers\Controller.php on line 13} localhost:8000 ::1 []

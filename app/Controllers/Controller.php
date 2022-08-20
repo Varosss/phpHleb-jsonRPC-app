@@ -8,7 +8,9 @@ class Controller extends \MainController
 {   
     public function index() {
         if (Request::getMethod() == "GET") {
-            return file_get_contents("data.json");
+            $data = json_decode(file_get_contents("data.json"), true);
+
+            return $data["result"];
         }
 
         $req = Request::getJsonBodyList();
